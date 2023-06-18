@@ -1,0 +1,49 @@
+#box1,
+#box2,
+#box3,
+#box4 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 5px solid white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+p{
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.color1{
+    color: chartreuse;
+}
+
+.color2{
+    color:blueviolet;
+}
+
+.color3{
+    color:lightseagreen;
+}
